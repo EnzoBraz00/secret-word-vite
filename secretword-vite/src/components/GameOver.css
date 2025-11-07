@@ -1,0 +1,70 @@
+.gameover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+    color: #fff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    max-width: 400px;
+    margin: 2rem auto;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  .gameover h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .gameover p {
+    font-size: 1.2rem;
+    margin: 0.4rem 0;
+  }
+  
+  .highlight {
+    color: #ecfa00;
+    font-weight: bold;
+  }
+  
+  .word-info {
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  
+  .word {
+    color: #00d1ff;
+    font-weight: 600;
+  }
+  
+  .gameover button {
+    background-color: #ecfa00;
+    color: #1a1a1a;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .gameover button:hover {
+    background-color: #fff500;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

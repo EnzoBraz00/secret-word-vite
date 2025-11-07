@@ -1,0 +1,76 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    height: 100vh;
+    width: 100%;
+  
+    text-align: center;
+    color: #fff;
+  
+    font-family: "Poppins", sans-serif;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  
+  .start h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ecfa00;
+  }
+  
+  .start p {
+    margin-bottom: 2em;
+    font-size: 1.2rem;
+  }
+  
+  .start label {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .start select,
+  .start input[type="checkbox"] {
+    margin-left: 8px;
+  }
+  
+  .start button {
+    background-color: #ecfa00;
+    color: #111;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .start button:hover:not(:disabled) {
+    background-color: #ffee33;
+    transform: scale(1.05);
+  }
+  
+  .start button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+  }
+  
+  .start select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .start div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 0;
+    gap: 4px;
+  }
+  
